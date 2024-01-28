@@ -1,0 +1,609 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* nav bar -------------- */
+nav{
+display: flex;
+width: 100%;  
+margin: auto; 
+justify-content: space-around;
+align-items:center;
+padding:10px 0px;
+position: sticky;
+top: 0%;
+background-color: #fcf9f9 ;
+}
+ nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    list-style: none;
+    align-items: center;
+}
+nav ul li a{
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    font-size:23px;
+    gap: 10px;
+    font-weight: bolder;
+}.nav-left img{
+    width:50px;
+}
+nav ul li{
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li a{
+    color: black;
+}
+nav ul li a:hover{
+    color: #f03506;
+    transition: 0.2s;
+}.right-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}.right-nav i{
+    font-size: 30px;
+}.right-nav a{
+    font-size:19px;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #f03506;
+    color: aliceblue;
+}
+/* Header */
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    margin-top:60px;
+    margin-bottom: 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    height: max-content;
+}.text .p1{
+    width: 90%;
+    line-height:1.9;
+}.text h1{
+    font-size:55px;
+    font-weight: bolder;
+
+}span a{
+    text-decoration: none;
+}header img{
+    width:460px;
+}.links{
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}.links .sh{
+    text-decoration: none;
+    color: #EFEDED;
+    background-color: #db3609;
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing:4px;
+}.links .sh:hover{
+    background:transparent;
+    border: #db3609 solid 1px;
+    transition: 0.5s;
+    color: #000000;
+}
+.links .con{
+    text-decoration: none;
+    color: #EFEDED;
+    background-color: #000000;
+    padding: 10px;
+    font-weight: 500;
+    letter-spacing:4px;
+}.links .con:hover{
+    background:transparent;
+    border: #000000 solid 1px;
+    transition: 0.5s;
+    color: #000000;
+}
+/* services */
+.services h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom:20px;
+}.services p{
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom:20px;
+    margin-bottom: 50px;
+}.services .servs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}.services .servs .serv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:27%;
+    gap:10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px grey;
+    /* border: solid 0.5px gray; */
+    padding:10px;
+    padding-bottom:0px;
+    outline:rgb(201, 194, 194) 0.2px solid;
+    cursor: pointer;
+}.services .servs .serv h3{
+    color: #db3609;
+    margin-top:10px;
+    font-size: 20px;
+}.services .serv p{
+    width: 90%;
+    font-size: 15px;
+    line-height: 1.6;
+}.services .serv img{
+    margin-top:25px;
+    width:60px;
+}.services .serv:hover{
+    transform: scale(1.03);
+    border-top: #db3609 solid 5px;
+}.services{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: max-content;
+}.services a{
+ margin-top:50px;
+ margin-bottom:50px;
+ background-color: #000000;
+ color: aliceblue;
+ padding:10px;
+ text-decoration: none;
+ font-weight:bolder;
+}.services a:hover{
+    background: transparent;
+    color: #000000;
+    border: solid 1px black;
+    transition: all;
+}.fresh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    height: max-content;
+}.fresh h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom:20px;
+}.fresh .p2{
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom:20px;
+    margin-bottom: 40px;
+}.fresh .Fruits .fr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 30px auto;
+}.Fruits .fr img{
+    width:250px;
+    object-fit: contain;
+}.Fruits .fresh .tx{
+display: flex;
+flex-direction: column;
+}.Fruits .tx p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height:1.5;
+    width: 80%;
+}.Fruits .tx a{
+background-color: #000000;
+padding:10px 40px;
+text-decoration: none;
+color: aliceblue;
+font-weight: bolder;
+}.Fruits .tx a:hover {
+        background: transparent;
+        border: #000000 1px solid;
+        color: #000000;
+        transition: 0.5s;
+}.Fruits{
+    display: flex;
+    flex-direction: column;
+}.Fruits .fr .grapes{
+    margin-right:60px;
+
+}
+/* advertsmaent */
+.advertment{
+    background-image:url(./images/tasty-image.png);
+    background-size: cover;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}.advertment h1{
+    font-size:130px;
+    color: aliceblue;
+    font-weight: 900;
+}.advertment .txx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+/* Testimonial*/
+.Testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}.Testimonial .p3{
+margin-top: 20px;
+margin-bottom: 60px;
+}
+.Testimonial h3{
+    margin-bottom: 40px;
+    font-size: 30px;
+}.Testimonial .p4{
+    width: 80%;
+    text-align: center;
+    line-height:1.8 ;
+}
+/* contact us */
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    gap:20px;
+    width: 50%;
+    margin-left: 30px;
+}.contact form input{
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+
+}::placeholder{
+    color: grey;
+    font-size: 15px;
+}.contact form button{
+background: #db3609;
+color: aliceblue;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+font-weight: 500;
+letter-spacing:5px;
+}.contact form h1{
+    font-size:35px;
+}.contact img{
+    width:200px;
+}
+/* map */
+.map{
+    width: 100%;
+    height: max-content;
+}.map iframe{
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 30px;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    gap:20px;
+    margin-bottom:90px;
+}footer div{
+width:40%;
+height: max-content;
+}
+footer div p{
+    line-height: 1.5;
+    width:60%;
+    text-align: start;
+    font-size: 14px;
+    margin-top: 20px;
+}footer h1{
+    font-size: 24px;
+}footer .icons{
+    display: flex;
+    align-items: center;
+    gap:10;
+}
+footer .icons i{
+    font-size:40px;
+    margin-top:10px;
+    margin-bottom: 30px;
+}footer .follow{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+}.follow h1{
+    font-size:30px;
+}.follow input{
+    padding: 10px 20px;
+}.follow button{
+background: #db3609;
+color: aliceblue;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+margin-top: 10px;
+font-weight: 500;
+letter-spacing:5px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 0px;
+    background-color:#EFEDED;
+}nav #i1{
+    font-size: 45px;
+    cursor: pointer;
+}#i1{
+    display: none;
+}
+/* media query phons */
+@media screen and (max-width:480px){
+    nav ul {
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    } 
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    header .text{
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }header img{
+        width:360px;
+        margin-top: 30px;
+    }.services .servs{
+        flex-direction: column;
+
+    }.services .servs .serv {
+        width: 60%;
+        margin: auto;
+    }.Fruits{
+        flex-direction:column;
+        width: 100%;
+    }.Fruits .fr{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }.fr p{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    } .fresh .Fruits .grapes{
+        width:100px;
+        margin: auto;
+    }.advertment h1 {
+        font-size:50px;
+    }.Testimonial p{
+        text-align: center;
+    }.contact{
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 0px;
+    }.contact form{
+       max-width:100%;
+        margin: auto;
+        margin-right: 90px;
+        gap: 30px;
+    }.contact img{
+        transform: rotate(180deg);
+        margin-top: 30px;
+        width:80px;
+    }footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }footer div{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }footer div p{
+        text-align: center;
+        width: 100%;
+    }.follow h1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }.follow{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }.follow input{
+        width: 60%;
+        margin: auto;
+    }.follow button{
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }.copy{
+        text-align: center;
+    }.Fruits .fr img{
+        width: 220px;
+        margin-top: 20px;
+    }#i1{
+        display: inline-block;
+    }
+}
+/* media in tablats */
+@media  screen and (min-width: 481px) and (max-width:768px) {
+    nav ul {
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    } 
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    header .text{
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }header img{
+        width:440px;
+        margin-top: 30px;
+    }.services .servs{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+
+    }.services .servs .serv {
+        width: 40%;
+        margin: auto;
+    }.Fruits{
+        flex-direction:row;
+        width: 100%;
+        flex-wrap: wrap;
+    }.Fruits .fr{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        justify-content: center;
+    }.fr p{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    } .fresh .Fruits .grapes{
+        width:80px;
+        margin:  auto;
+    }.advertment h1 {
+        font-size:50px;
+    }.Testimonial p{
+        text-align: center;
+    }.contact{
+        flex-direction: row;
+        justify-content: center;
+        gap: 0px;
+        width: 100%;
+    }.contact form{
+       max-width:100%;
+        margin: auto;
+        gap: 30px;
+    }.contact img{
+        margin-top: 30px;
+        width:130px;
+    }footer{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }footer div{
+        width: 40%;
+        text-align: center;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }footer div p{
+        text-align: center;
+        width: 100%;
+    }.follow h1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }.follow{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }.follow input{
+        width: 60%;
+        margin: auto;
+    }.follow button{
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }.copy{
+        text-align: center;
+    }.Fruits .fr img{
+        width: 170px;
+        margin-top:0px;
+    } .fresh .Fruits .fr{
+        width:50%;
+    } .fresh .Fruits .fr .go{
+        width: 130px;
+    }nav{
+        justify-content: space-around;
+        padding:10px 0px;
+    }#i1{
+        display: inline-block;
+    }
+}
